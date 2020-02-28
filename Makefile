@@ -2,7 +2,7 @@ run: mysh
 	./mysh
 
 mysh: mysh.c
-	gcc mysh.c -o mysh
+	gcc -g -Wall -o mysh mysh.c
 
 clean:
 	rm mysh
